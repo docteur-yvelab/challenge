@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+/* les proprietées qui seront appliquer a tout le corps de mon code */
+
+body {
+
+    background-image: url(ver.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* entete de ma page web et son menu */
+
+.header {
+    background-color:rgb(76, 166, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+/* alignement du texte couleur et taile */
+
+h1 {
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(176, 177, 134);
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* position du texte */
+
+div.retjo {
+    text-align: left; /* Aligne le texte à gauche */
+    margin-right: 60%;
+}
+
+/* propriete du menu deroulant   */
+
+#selecte{
+    height: 10px;
+    width: 10px;
+}
+
+select{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(76, 166, 223);
+    color: white;
+}
+
+/* les boutton couleur et bordure  */
+
+button{
+    background-color: rgb(76, 166, 223);
+    border: none;
+   
+}
+
+/* les liens couleur espace et taile */
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-style: oblique;
+    justify-content: space-between;
+}
+/* a.search {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a.search:hover {
+    input-security:auto;
+} */
+
+/* deuxieme partie de mon site web */
+
+section {
+    background-color: none;
+    font-size: 2px;
+    display: flex;
+    justify-content: right;
+    align-items:right;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+ }
+
+/* couleur de fond de mes boutons , alignement et espace  */
+
+ .fin {
+    background-color: transparent;
+    border: none;
+    justify-content: space-between;
+ }
+
+/* le deuxieme selecte et ces proprietes */
+
+ .menu2 {
+    background-color: transparent;
+    color:white;
+    padding-top: 1px;
+ }
+
+ /* proprieté dans le selecte */
+
+ .opt {
+    background-color: black;
+    color: brown;
+ }
+ .gray {
+    background-color: rgb(141, 111, 36);
+    height: 35px;
+    border-radius: 7px;
+ }
+ .espace {
+    display: flex;
+    margin-top: 50px;
+    margin-right:25px;
+    padding-left: 50px;
+ }
